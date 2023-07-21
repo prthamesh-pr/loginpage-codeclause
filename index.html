@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" />
+  <meta name="keywords" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLIMA CHECK|PRATHAMESH RAUT</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+</head>
+
+<body>
+  <section class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="form signup">
+      <header>CLIMA CHECK<br>CODECLAUSE</header>
+      <div class="form signup">
+        <header>Login Page by Prathamesh</header>
+        <form action="#">
+          <input type="text" placeholder="Phone No" required />
+          <a href="#">Send Otp</a>
+          <input type="otp" placeholder="otp" required />
+          <input type="submit" value="Login" />
+          <p class="one">Log in Via</p>
+          <div class="class" id="b1">
+            <button onclick="googleLogin()"class="button">Login with Google</button><br>
+          </div>
+          <div class="class" id="b2">
+            <button id="b2" onclick="facebookLogin()"class="button">Login with Facebook</button><br>
+          </div>
+          <div class="class" id="b1">
+            <button id="b3" onclick="githubLogin()"class="button">Login with GitHub</button><br>
+          </div>
+          <p class="two">Dont have a account</p>
+      </div>
+      </form>
+
+  </section>
+
+  <!-- firebase cdn file -->
+  <script src="main.js"></script>
+
+  <!-- Javascript file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
